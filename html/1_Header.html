@@ -1,0 +1,66 @@
+<div class="Header">
+  <nav class="Header_navbar">
+    <div class="Header_logo1"></div>
+    <div class="Header_logo2"></div>
+    <ul class="Header_nav-links">
+      <li class="ABOUT_US">
+        <a style="text-decoration: none; color: #fbfae0" href="#ABOUT_US"
+          >ABOUT US</a
+        >
+        <div class="nav_link_dot"></div>
+      </li>
+
+      <li class="COURSES">
+        <a style="text-decoration: none; color: #fbfae0" href="#COURSES"
+          >COURSES</a
+        >
+        <div class="nav_link_dot"></div>
+      </li>
+
+      <li class="FAQ">
+        <a style="text-decoration: none; color: #fbfae0" href="#FAQ">FAQ</a>
+        <div class="nav_link_dot"></div>
+      </li>
+
+      <li class="TEAM">
+        <a style="text-decoration: none; color: #fbfae0" href="html/team.html"
+          >TEAM</a
+        >
+        <div class="nav_link_dot"></div>
+      </li>
+
+      <li class="CONTACT">
+        <a style="text-decoration: none; color: #fbfae0" href="#CONTACT"
+          >CONTACT</a
+        >
+        <div class="nav_link_dot"></div>
+      </li>
+
+      <li class="PARTNER_WITH_US">
+        <a
+          style="text-decoration: none; color: #fbfae0"
+          href="html/partnership.html"
+          >PARTNER WITH US</a
+        >
+        <div class="nav_link_dot"></div>
+      </li>
+    </ul>
+    <button class="hamMenu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+</div>
+<script>
+	var mq = window.matchMedia( "(max-width: 1024px)" );
+if (mq.matches) {
+     document.querySelector(".hamMenu").addEventListener("click", function () {
+    document.querySelector(".hamMenu").classList.toggle("active");
+	document.querySelector('.Header_nav-links').classList.toggle('active_nav')
+  });
+}
+else {
+    // window width is greater than 570px
+}
+</script>

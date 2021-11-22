@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+.Header {
+  position: absolute;
+  top: 0;
+}
+.Partnership {
+  height: 66.88vw;
+  background: #ffba7a;
+  margin-top: 5.55vw;
+  position: relative;
+}
+.Partnership .cta-btn a{
+  color:white;
+  text-decoration: none;
+}
+.partner-dot-top,
+.partner-dot-bottom {
+  width: 19.71vw;
+}
+.partner-dot-top {
+  position: absolute;
+  top: 4.69vw;
+  left: 3.125vw;
+}
+.partner-dot-bottom {
+  position: absolute;
+  bottom: 5vw;
+  right: 4.097vw;
+}
+.partnership-top-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.partnership-card-main {
+  display: flex;
+  gap: 2.36vw;
+  width: 80.69vw;
+  margin: auto;
+  padding-top: 7.78vw;
+  justify-content: center;
+  align-items: center;
+}
+.partnership-card {
+  background: #fff;
+  width: 39.17vw;
+  height: 47.22vw;
+  border-radius: 1.389vw;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0vw;
+  padding-bottom: 3.54vw;  
+  /* justify-content: center; */
+}
+.partnership-card h1 {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.431vw;
+  line-height: 2.85vw;
+  text-align: center;
+  margin-top: 3.81vw;
+  margin-bottom: 1.53vw;
+}
+.sponsor-illust {
+  width: 31.44vw;
+  /* height: 31.44vw; */
+}
+.brochure-btn {
+  width: 15.625vw;
+  height: 3.819vw;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.39vw;
+  line-height: 1.597vw;
+  text-align: center;
+  border: 0.139vw solid #eb5310;
+  box-sizing: border-box;
+  border-radius: 0.69vw;
+  background: #fff;
+  color: #eb5310;
+  cursor: pointer;
+  margin-top: 3.47vw;
+  margin-bottom: 1.875vw;
+}
+.cta-btn {
+  background: #eb5310;
+  border-radius: 0.69vw;
+  width: 21.53vw;
+  height: 3.819vw;
+  border: none;
+  color: #fff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.67vw;
+  line-height: 1.94vw;
+  cursor: pointer;
+}
+@media screen and (max-width: 1024px) {
+  .Partnership{
+    height: 100%;
+    position: relative;
+  }
+  .partnership-card-main{
+    flex-direction: column;
+    padding-bottom: 11.875vw;
+    gap: 3rem;
+  }
+  .partner-dot-bottom,
+  .partner-dot-top{
+    width: 40%;
+  }
+  .partner-dot-top{
+    top: 2vw;
+  }
+  .partner-dot-bottom{
+    bottom: 4vw;
+  }
+  .partnership-card{
+    width: 100%;
+    height: 100%;
+    border-radius: 4vw;
+    padding-bottom: 4.45vw;
+  }
+  .partnership-card h1{
+    font-size: 9vw;
+    margin: 1.5rem auto;
+    line-height: normal;
+  }
+  .sponsor-illust{
+    width: 90%;
+    height: 50%;
+  }
+  .brochure-btn,
+  .cta-btn{
+    width: 40vw;
+    height: 8vw;
+    font-size: 4vw;
+    border-radius: 2vw;
+  }
+  .brochure-btn{
+    margin-bottom: 1.5rem;
+  }
+}

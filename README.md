@@ -1,2 +1,1 @@
-# GS-Scholarship-Program
-Scholarship Program by GirlScript
+# [GirlScript Education Outreach Website](https://nikitha2309.github.io/Girl-Script-Education-Outreach-Website/)

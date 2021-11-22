@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&family=Rubik:wght@500&display=swap");
+
+.About {
+  position: relative;
+  width: 100%;
+  height: auto; /* 835/1440 */
+  left: 0vw;
+  background: #ffdab8;
+  padding-bottom: 7vw;
+  padding-top: 12.71vw;
+}
+
+.About_image_1 {
+  position: absolute;
+  width: 62.5vw; /* 900/1440 */
+  height: 46.875vw; /*675/1440*/
+  left: -0.83%; /* -12/1440 */
+  top: 1.736vw; /* 25/1440 */
+  background: url("https://raw.githubusercontent.com/Nikitha2309/Girl-Script-Education-Outreach-Website/c35096fae293ddddf1899c544a8815071a896845/assets/3_About_illust.svg")
+    no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+
+.About_dot_image {
+  position: absolute;
+  width: 19.65%; /* 283.68/1440 */
+  height: 17.36vw; /* 250.52/1440 */
+  left: 31.41%; /* 453/1440 */
+  top: 8.81vw; /* 127/1440 */
+  background: url("https://raw.githubusercontent.com/Nikitha2309/Girl-Script-Education-Outreach-Website/master/assets/3_About_Dot.png")
+    no-repeat;
+  background-size: contain;
+}
+
+.About_title {
+  position: relative;
+  width: 10.06%; /* 145/1440	 */
+  height: 2.98vw; /* 43/1440 */
+  margin-left: 80.27%; /*  1156/1440 */
+  /* margin-top: 12.71vw;  285/1440 */
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3.33vw; /* 	48/1440 */
+  line-height: 3.95vw; /* 57/1440	 */
+  text-align: right;
+  color: #000000;
+  margin-bottom: 1.11vw;
+}
+
+.About_title_underline {
+  position: relative;
+  width: 5.76%;
+  height: 0px;
+  /* right: 9.65%; */
+  margin-left: 83.611vw;
+  /* top: 1.11vw; */
+
+  border: 0.0138vw solid #eb5310;
+}
+
+.About_sub_title {
+  position: relative;
+  width: 28.95%; /* 417/1440	 */
+  height: 1.52vw; /* 	22/1440 */
+  margin-left: 62.15%; /* 895/1440	 */
+  margin-top: 1.875vw; /* 371/1440 */
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.66vw; /* 24/1440	 */
+  line-height: 1.94vw; /* 28/1440 */
+  text-align: right;
+  color: #000000;
+}
+
+.About_description {
+  position: relative;
+  width: 37.7%; /* 543/1440	 */
+  height: auto; /* 543/1440	 */
+  margin-left: 55.4%; /* 769/1440	 */
+  margin-top: 1.66vw; /* 417/1440	 */
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.11vw; /* 16/1440	 */
+  line-height: 1.31vw; /* 19/1440	 */
+  text-align: right;
+  color: #000000;
+}
+
+.About_KnowMore {
+  margin-left: 77vw;
+  /* right:9.86vw; */
+  margin-top: 2.9vw;
+
+  background: #eb5310;
+  border-radius: 0.486vw;
+  border-color: #eb5310;
+  padding-bottom: 0.83vw;
+  padding-left: 0.55vw;
+  padding-right: 0.55vw;
+  padding-top: 0.83vw;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.11vw;
+  line-height: 1.31vw;
+  text-align: center;
+  color: #fbfae0;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+  .About {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .About_details_Main {
+    margin-top: 60vw;
+  }
+  .About_title {
+    font-size: 8vw;
+    width: 80%;
+    margin: auto;
+	  text-align:left;
+  }
+  .About_title_underline {
+    width: 15%;
+    border-top: 0.4vw solid #eb5310;
+    right: 74vw;
+    top: 4vw;
+  }
+  .About_sub_title {
+    font-size: 5vw;
+    width: 80%;
+    line-height: normal;
+    margin: 7vw auto 3vw;
+    height: auto;
+	  text-align: left;
+  }
+  .About_image_1 {
+    width: 100%;
+    height: 50%;
+    background-size: contain;
+  }
+  .About_dot_image {
+    width: 32vw;
+    height: 100%;
+    left: 12%;
+    top: 12vw;
+  }
+  .About_description {
+    font-size: 4vw;
+    line-height: normal;
+    width: 80%;
+    margin: auto;
+	  text-align: left;
+  }
+  .About a {
+    width: 60%;
+    margin-left: auto;
+  }
+  .About_KnowMore {
+    width: 60%;
+    height: auto;
+    border-radius: 1vw;
+    margin: 3vw auto;
+    font-size: 3vw;
+    line-height: normal;
+	margin-left: 10vw;
+  }
+}

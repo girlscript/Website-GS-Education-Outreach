@@ -1,0 +1,112 @@
+.footer{
+	height:25.069vw;
+	background-color: black;
+	color: white;
+	position: relative;
+}
+*{
+	font-family: 'Roboto';
+	margin: 0;
+	padding: 0;
+}
+.contact-parent {
+	display: flex;
+	justify-content: space-between;
+	padding-right: 9.97%;
+	padding-left:9.38%;
+}
+.contact-1{
+	width:25%;
+}
+.footer ul{
+	list-style: none;
+}
+.contact-1 ul li,.contact-2 ul li,.contact-3 ul li,.contact-4 ul li{
+	margin-top:6px;
+	font-size: 1.38vw;
+	font-weight: 400;
+}
+.contact-1,.contact-2,.contact-3,.contact-4,.contact-5{
+	margin-top: 50px;
+	
+}
+.footer h3{
+	font-size: 1.66vw;
+	margin-bottom: 15px;
+}
+.contact-1 p{
+	margin-top: 15px;
+	line-height: 2;
+	font-size:1.11vw;
+	font-weight: 400;
+}
+.contact-2,.contact-3,.contact-4,.contact-5{
+	margin-top: 70px;
+}
+.contact-4 a{
+	background-color: #EB5310;
+	color: white;
+	padding: 12px 50px;
+	text-decoration: none;
+	font-weight: bold;
+	display: block;
+	margin-top: 20px;
+	letter-spacing: 2px;
+	border-radius: 6px;
+}
+.contact-5 ul li{
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+.contact-5 ul li img{
+  width:88.083%;
+}
+.copyright{
+	margin-left: 40px;
+	position: absolute;
+	bottom:1.73vw;
+	left: 6.125%;
+	font-weight: 400;
+}
+
+@media screen and (max-width:1024px){
+	.contact-parent{
+	flex-direction: column;
+
+	}
+	.footer{
+		height: 100%;
+	}
+	.contact-1{
+		width:82%;
+	}
+	.contact-1 p{
+		font-size: 4.11vw;
+	}
+	.footer h3{
+		font-size: 5.66vw;
+	}
+	.contact-1 ul li,.contact-2 ul li,.contact-3 ul li,.contact-4 ul li{
+		font-size: 4.38vw;
+	}
+	.contact-5 ul{
+		display: flex;
+		justify-content: space-between;
+	}
+	.contact-5 ul li img{
+		width:100.15px;
+	}
+	.contact-4 a{
+		width:30%;
+		padding:1.83vw 3.47%;
+		font-size:2.38vw;
+		text-align: center;
+	}
+	.copyright{
+		position: static;
+		margin-top: 30px;
+		margin-left: 8.486vw;
+		font-size: 3.18vw;
+		padding-bottom:30px;
+	}
+}

@@ -1,0 +1,139 @@
+<div class="register" id="register">
+	<img src="./assets/8_Ornament.png"class="ornament1_8">
+	<h1>Become a Mentor!</h1>
+	<div class="register-cont">
+	<div class="container">
+		<div class="regbox-full">
+		<div class="regform-header">
+			
+			<div class="header-2" id="mentor">Mentor</div>
+		</div>
+		<p id="warning"></p>
+		<!-- <form method="post" autocomplete="off" class="student" id="student-form" name="GSEOP-PARTICIPANT-REGISTRATIONS">
+			<div class="form-header"><img src="./assets/participant.png" class="participant-img">
+			<h4>Student Route</h4></div>
+			<div class="form-content">
+				<p><span>✓</span>Gain New Skills</p>
+				<p><span>✓</span>Gain Practical exposure</p>
+				<p><span>✓</span>Gain Training from Industry experts</p>
+				<p><span>✓</span>Completion Certificate</p>
+				<button class="con-btn"><a target="_blank" href="https://linktr.ee/GirlScriptEducationOutreach">Register as Student</a></button>
+			</div> -->
+		<!-- <div id="student-form1" class="form">
+			
+			<label>Name<span> *</span></label>
+			<input type="text" class="valid-input1" name="name" required>
+			<label>Email<span> *</span></label>
+			<input type="email" class="valid-input1" name="email" required>
+			<label>Contact Number<span> *</span></label>
+			<input type="number" class="valid-input1"name="mobile" required>
+			<div class="occupation">
+			<label for="occupation">Occupation<span> *</span></label>
+			<select id="occupation" required name="occupation">
+				<option disable selected value>Select an option</option>
+				<option>Student</option>
+				<option>Professional</option>
+				<option>Entrepreneur</option>
+			</select>
+		</div>
+		<div>
+			<label for="selected-course">Select a Course<span> *</span></label>
+			<select id="selected-course" name="course selected" required>
+				<option disable selected value>Select an option</option>
+				<option>Getting Started with Java</option>
+			</select>
+		</div>
+			<label>College/University/Organisation<span> *</span></label>
+			<input type="text" class="valid-input1"  name="organization" required>
+			<div class="btn-cont">
+			<button class="con-btn" id="cont-btn1" onclick="next()" type="button">Continue <img src="./assets/forward_arrow.png" style="vertical-align: middle;width:0.625vw;height:1.18vw;"></button>
+		    </div>
+		</div>
+		<div id="student-form2" class="form">
+			<div class="back-flex"><img onclick="back()" src="./assets/back_arrow.svg" > <a onclick="back()" style="color:#908E8E;cursor: pointer;margin-left:3px;">Back</a></div><br>
+			<label>Why do you want to get this Scholarship ? <span> *</span></label>
+			<textarea   name="Why do you want to get this Scholarship" required></textarea><br>
+			<label>How will this program help you in future ?<span> *</span></label>
+			<textarea  name="How will this program help you in future" required></textarea><br>
+			<div class="agree"><label class="custom-checkbox"><input type="checkbox" name="agreed" value="1"  required><span class="checkmark"></span></label> <br><p> Yes, I agree</p></div>
+			<small>I agree that I will follow the following guidelines:- 1) I will not create a nuisance in a live class or the community channels. 2) I will not use abusive language or harass anyone in any form. 3) I will attend all the classes to get a digital certificate. 4) GirlScript can take legal action against me if I break any of the rules. *
+			</small>
+			<div class="btn-cont">
+			<button class="con-btn" type="submit" name="submit" id="cont-btn2">Submit</button>
+		    </div>
+		</div> -->
+		<!-- </form> -->
+		<!-- Mentor forms -->
+		<form method="post" autocomplete="off" id="mentor-form" class="mentor-form"enctype="multipart/form-data" name="GSEOP-MENTOR-REGISTRATIONS">
+			<div class="form-header"><img src="./assets/mentor.png" class="participant-img">
+				<h4>Mentor Route</h4></div>
+				<div class="form-content">
+					<p><span>✓</span>Gain Practical Exposure</p>
+					<p><span>✓</span>Build Connections</p>
+					<p><span>✓</span>Flexible Schedule of work hours</p>
+					<p><span>✓</span>Certificate</p>
+					<a href="https://forms.gle/w8LvnTkLTLqzCBD26" class="con-btn" target="_blank">Register as Mentor</a>
+				</div>
+		<!-- <div id="mentor-form1" class="form">
+			<label>Name<span> *</span></label>
+			<input type="text" class="valid-input2" name="mentor name" required>
+			<label>Email<span> *</span></label>
+			<input type="email"  class="valid-input2" name="mentor email" required>
+			<label>Contact Number<span> *</span></label>
+			<input type="number"  class="valid-input2" name="mentor mobile" required>
+			<div class="occupation">
+			<label class="actual-label">Upload your resume<span> *</span></label>
+		    <label class="resume" for="file-upload">Upload <img src="./assets/up_arrow.svg"style="width:0.900vw;"></label>
+			<input type="file" name="resume"  class="valid-input2" id="file-upload" hidden required>
+			
+		    </div>
+			<div class="file-content">
+			
+			<small id="file-name"  ></small></div><br>
+			<label>Github Link<span> *</span></label>
+			<input type="url" class="valid-input2" name="github" required>
+			<div class="btn-cont">
+			<button class="con-btn" id="cont-btn1" onclick="mentornext()" type="button">Continue  <img src="./assets/forward_arrow.png" style="vertical-align: middle;width:0.625vw;height:1.18vw;"></button>
+		    </div>
+		</div>
+		<div id="mentor-form2" class="form">
+			<div class="back-flex"><img onclick="mentorback()" src="./assets/back_arrow.svg" > <a onclick="mentorback()" style="color:#908E8E;cursor: pointer;margin-left:3px;">Back</a></div><br>
+			<label>LinkedIn Link<span> *</span></label>
+			<input type="url" class="valid-input3" name="linkedin" required>
+			<label>Domain of Mentorship<span> *</span></label><br>
+			<div class="radio-buttons">
+			<input type="radio" name="domain" value=0 id="radio-button1"required><span> Tech</span>
+			<input type="radio" name="domain" value=1 id="radio-button2" required><span>Non Tech</span>
+		    </div>
+			<label for="availability">Select Course<span> *</span></label>
+			<select id="availability" name="course" class="valid-input3" required>
+				<option disable selected value>Select an option</option>
+				<option>Getting Started with Java</option>
+				<option>#</option>
+				<option>#</option> 
+			</select>
+			<label>Why should we select you as a mentor<span> *</span></label>
+			<textarea class="valid-input3" name="Why should we select you as a mentor" required></textarea>
+			<div class="btn-cont">
+			<button class="con-btn" id="cont-btn2" onclick="mentorsecondnext()" type="button">Continue <img src="./assets/forward_arrow.png" style="vertical-align: middle;width:0.625vw;height:1.18vw;"></button>
+		    </div>
+		</div>
+		<div id="mentor-form3" class="form">
+			<div class="back-flex"><img onclick="mentorsecondback()" src="./assets/back_arrow.svg" > <a onclick="mentorsecondback()" style="color:#908E8E;cursor: pointer;margin-left:3px;">Back</a></div><br>
+			<label>Please share some work experience related to your choosen field<span> *</span></label>
+			<textarea  name="work experience" required></textarea>
+			<label>Describe what you would do if students became inactive during the event<span> *</span></label>
+			<textarea  name="what you would do if students became inactive" required></textarea>
+			<label>How many hours are you willing to <t></t>dedicate per week?<span> *</span></label>
+			<input type="text" name="hours/week" required>
+			<div class="btn-cont">
+			<button class="con-btn" id="cont-btn2">Submit</button>
+		    </div>
+		</div> -->
+		</form>
+	</div>
+	
+	
+</div>
+<img src="./assets/8_Ornament.png" class="ornament2_8">
+</div>

@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+.Header {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.11vw;
+  line-height: 1.31vw;
+  color: #fbfae0;
+}
+
+.Header_navbar {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 20px; */
+  background: #1c1c1c;
+  height: 5.55vw;
+  width: 100%;
+  z-index: 1000;
+  /* color: #fff; */
+}
+
+.Header_logo1 {
+  position: absolute;
+  width: 2.083%;
+  height: 3.24vw;
+  left: 9.65%;
+  /* margin-right: 1.73%; */
+  margin-top: 1.18vw;
+  margin-bottom: 1.18vw;
+  background: url("https://raw.githubusercontent.com/Nikitha2309/Girl-Script-Education-Outreach-Website/master/assets/1_Header_Logo_1.png")
+    no-repeat;
+  background-size: contain;
+}
+
+.Header_logo2 {
+  position: absolute;
+  width: 19.44%;
+  height: 3.73vw;
+  left: 13.47vw;
+  margin-top: 0.76vw;
+  margin-bottom: 1.18vw;
+  background: url("https://raw.githubusercontent.com/Nikitha2309/Girl-Script-Education-Outreach-Website/master/assets/1_Header_Logo_2.png")
+    no-repeat;
+  background-size: contain;
+}
+
+.Header_nav-links {
+  position: relative;
+  margin-left: 49.11vw;
+  display: flex;
+  gap: 3.4vw;
+  flex-direction: row;
+  /* margin-top:2.29vw; */
+  margin-bottom: 1.59vw;
+  list-style: none;
+  text-transform: capitalize;
+}
+
+.nav_link_dot {
+  position: relative;
+  opacity: 0;
+  width: 0.45vw;
+  height: 0.45vw;
+  left: 50%;
+  top: 25.25%;
+  background: url("https://raw.githubusercontent.com/Nikitha2309/Girl-Script-Education-Outreach-Website/master/assets/1_Header_Dot.png")
+    no-repeat;
+  background-size: contain;
+  background: #eb5310;
+  border-radius: 50%;
+}
+
+.nav_link_dot_team {
+  position: relative;
+  opacity: 1;
+  width: 0.45vw;
+  height: 0.45vw;
+  left: 50%;
+  top: 25.25%;
+  background: url("https://raw.githubusercontent.com/Nikitha2309/Girl-Script-Education-Outreach-Website/master/assets/1_Header_Dot.png")
+    no-repeat;
+  background-size: contain;
+  background: #eb5310;
+  border-radius: 50%;
+}
+
+.ABOUT_US {
+  margin-top: 2.29vw;
+}
+
+.ABOUT_US a:hover {
+  color: #eb5310 !important;
+}
+
+.COURSES {
+  margin-top: 2.29vw;
+}
+
+.COURSES a:hover {
+  color: #eb5310 !important;
+}
+
+.FAQ {
+  margin-top: 2.29vw;
+}
+
+.FAQ a:hover {
+  color: #eb5310 !important;
+}
+
+.TEAM {
+  margin-top: 2.29vw;
+}
+
+.TEAM a:hover {
+  color: #eb5310 !important;
+}
+
+.CONTACT {
+  margin-top: 2.29vw;
+}
+
+.CONTACT a:hover {
+  color: #eb5310 !important;
+}
+
+.PARTNER_WITH_US {
+  margin-top: 1.59vw;
+  padding-bottom: 0.5vw;
+  padding-left: 0.48vw;
+  padding-top: 0.7vw;
+  padding-right: 0.48vw;
+  border: 0.13vw solid #eb5310;
+  box-sizing: border-box;
+  border-radius: 0.48vw;
+}
+
+.PARTNER_WITH_US:hover {
+  background: #eb5310;
+  color: #fbfae0;
+}
+
+.PARTNER_WITH_US_PARTNER {
+  background: #eb5310;
+  margin-top: 1.59vw;
+  padding-bottom: 0.5vw;
+  padding-left: 0.48vw;
+  padding-top: 0.7vw;
+  padding-right: 0.48vw;
+  border: 0.13vw solid #eb5310;
+  box-sizing: border-box;
+  border-radius: 0.48vw;
+}
+.hamMenu {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .Header_navbar {
+    height: 10vw;
+  }
+  .Header_logo2 {
+    height: 8vw;
+    width: inherit;
+    left: 17vw;
+  }
+  .Header_logo1 {
+    height: 6vw;
+    width: inherit;
+    margin-right: 2vw;
+    top: 1vw;
+  }
+  .hamMenu {
+    display: block;
+    position: absolute;
+    margin-left: auto;
+    right: 8vw;
+    top: 3vw;
+    background: none;
+    border: 0;
+  }
+  .hamMenu span {
+    display: block;
+    width: 5vw;
+    height: 0.5vw;
+    background-color: #fbfae0;
+    margin-bottom: 1vw;
+    transform-origin: 0 0;
+    transition: 0.4s;
+    border-radius: 0.3vw;
+  }
+  /* .hamMenu:hover span:nth-child(2){
+	  transform: translateX(1vw);
+	  background-color: #eb5310;
+  } */
+  .hamMenu.active span:nth-child(1) {
+    transform: translate(0vw, 0.5vw) rotate(45deg);
+  }
+  .hamMenu.active span:nth-child(3) {
+    transform: translate(-0.2vw, 1.3vw) rotate(-45deg);
+  }
+  .hamMenu.active span:nth-child(2) {
+    opacity: 0;
+    transform: translateX(8vw);
+    background-color: #eb5310;
+  }
+  .Header_navbar {
+    display: block;
+  }
+  .Header_nav-links {
+    /* display: none; */
+    position: absolute;
+    background: #1c1c1c;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding: 15vw 0vw;
+    gap: 4vw;
+    left: -100%;
+    margin: 0;
+    z-index: -1;
+    border-bottom: 1vw solid #eb5310;
+	transition: left 1s ease-in-out;
+  }
+  .PARTNER_WITH_US {
+    width: auto;
+    height: 8vw;
+	padding: 3vw 4vw;
+	border-radius: 1.5vw;
+  }
+  .Header_nav-links li {
+    margin-top: 5vw;
+  }
+  .Header_nav-links a {
+    font-size: 5vw;
+  }
+  .active_nav {
+    left: 0;
+  }
+}

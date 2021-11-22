@@ -1,0 +1,228 @@
+.Testimonials {
+  font-weight: bold;
+  font-size: 30px;
+  background: #ffba7a;
+  color: #000;
+  height: auto;
+  position: relative;
+}
+.testimonial_heading {
+  font-size: 3.33vw;
+  font-family: Rubik;
+  font-weight: 500;
+  margin-left: 10.2vw;
+  padding-top: 5%;
+}
+.testimonial_underline {
+  border-top: 0.14vw solid #eb5310;
+  width: 13vw;
+  height: 0px;
+  margin-left: 10.3vw;
+}
+.testimonial_dot_pattern {
+  position: absolute;
+  right: 25vw;
+  width: 24vw;
+  top: 12vw;
+}
+.crousel-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+}
+.crousel-row{
+  margin-top: 6vw;
+}
+.owl-carousel {
+  display: block;
+  /* min-height: 30vw; */
+  width: 42vw;
+  margin: auto 27vw;
+}
+.owl-carousel .item {
+  height: 26.2vw;
+  width: 39vw;
+  margin: auto 1.5rem;
+  text-align: center;
+}
+.owl-item-container {
+  background: #fff; 
+  height: 26.2vw;
+  /* height: auto; */
+  border-radius: 1.05vw;
+}
+.owl-carousel .owl-stage-outer {
+  height: 28vw;
+}
+.testimonial-img{
+  padding-top: 3vw;
+  padding-bottom: 1vw;
+}
+.owl-carousel .item img {
+  width: 10vw;
+  margin: auto;
+  width: 10.14vw;
+  height: 10.14vw;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.item-border {
+  border: 0.21vw solid #eb5310;
+  position: absolute;
+  border-radius: 1.05vw;
+  top: 1.5vw;
+  min-height: 26.2vw;
+  width: 39vw;
+  left: 0.4vw;
+}
+.item-data h5,
+.side-thumb h5{
+  font-size: 1.67vw;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+}
+.testimonial{
+  height: 5.5vw;
+  width: 32.5vw;
+  position: absolute;
+  left: 5vw;
+  top: 17vw;
+  overflow-y: auto;
+}
+.testimonial p{
+  height: 5.5vw;
+  /* width: 32.5vw; */
+  margin-bottom: auto;
+  text-align: left;
+}
+.item-data h6,
+.testimonial p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1vw;
+  line-height: 1.32vw;
+  padding-bottom: 1rem;
+}
+.thumb-prev,
+.thumb-next {
+	position: absolute;
+	z-index: 99;
+	top: 45%;
+	left: 10vw;
+	cursor: pointer;
+	transition: all 0.3s;
+  text-align: center;
+}
+.thumb-next {
+	left: auto;
+	right: 10vw;
+}
+.thumb-next img,
+.thumb-prev img{
+  width: 5.56vw;
+  height: 5.56vw;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.owl-theme .owl-dots{
+  margin: 4.2vw auto 5.36vw !important;
+}
+.owl-theme .owl-dots .owl-dot span {
+  background: #fff;
+  transition: none;
+}
+.owl-theme .owl-dots .owl-dot span:hover {
+  background: #fff;
+}
+.owl-theme .owl-dots .owl-dot.active span {
+  background: #fff;
+  transition: all 0.2s ease-in-out;
+  width: 1.5vw;
+  height: 0.69vw;
+}
+
+@media screen and (max-width: 1024px) {
+  .Testimonials{
+    height: 100%;
+    padding-bottom: 3rem;
+  }
+  .testimonial_heading{
+    font-size: 8vw;
+  }
+  .testimonial_underline{
+    width: 30%;
+    border-top: .4vw solid #eb5310;
+  }
+  .testimonial_dot_pattern{
+    width: 40vw;
+    top: 17vw;
+    right: 2vw;
+  }
+  .side-thumb{
+    display: none;
+  }
+  .owl-carousel .owl-stage-outer{
+    height: 85vw;
+  }
+  .crousel-container{
+    height: 60%;
+    width: 100vw;
+    margin-top: 1rem;
+  }
+  .owl-carousel{
+    margin: 0;
+    width: 100%;
+    height: 60%;
+  }
+  .owl-carousel .item{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+  }
+  .crousel-row{
+    width: 100%;
+    height: 100%;
+  }
+  .owl-item-container{
+    height: auto;
+    min-height:80vw;
+    border-radius: 3vw;
+  }
+  .item-border{
+    border: 0.4vw solid #eb5310;
+    height: 81vw !important;
+    width: 90vw;
+    border-radius: 3vw;
+    margin-left: 1.5rem;
+  }
+  .testimonial-img{
+    padding: 6vw 0vw 2vw;
+  }
+  .owl-carousel .item img{
+    width: 20vw;
+    height: 20vw;
+  }
+  .item-data h5{
+    font-size: 6vw;
+    margin-bottom: 3vw;
+  }
+  .item-data h6{
+    font-size: 3.4vw;
+  }
+  .testimonial{
+    height: 44%;
+    width: 85%;
+    margin: auto;
+    left: 10vw;
+    margin-top: 23vw;
+  }
+  .testimonial p{
+    font-size: 2.8vw;
+    line-height: normal;
+    width: 100%;
+    margin-top: 1rem;
+  }
+}

@@ -1,0 +1,410 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&family=Roboto:wght@500&family=Rubik:wght@500&display=swap");
+
+.Courses {
+  position: relative;
+  width: 100%;
+  height: auto;
+  left: 0vw;
+  background: #ffba7a;
+  padding-bottom: 4.44vw;
+}
+
+.Courses_title {
+  position: relative;
+  width: 36.8%; /* 530/1440	 */
+  height: 3.19vw; /* 46/1440	 */
+  left: 10.06%; /* 145/1440	 */
+  top: 5.34vw; /* 77/1440	 */
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3.3vw; /* 48/1440	 */
+  line-height: 3.95vw; /* 57/1440	 */
+  color: #000000;
+}
+
+.Courses_title_underline {
+  position: absolute;
+  width: 12.91%; /* 186/1440	 */
+  height: 0vw;
+  left: 10.06%; /* 145/1440 */
+  top: 9.79vw; /* 139/1440 */
+  border: 0.01vw solid #eb5310; /* 2/1440 */
+}
+
+.Courses_container {
+  z-index: 2;
+  position: relative;
+  margin: 0 auto;
+  padding-top: 1.31vw; /* 19/1440	 */
+  padding-bottom: 1.31vw; /*19/1440 */
+  width: 66.8%; /* 962/1440	 */
+  height: auto; /* 827.1/1440	 */
+  /* left: 16.59%; /* 239/1440	 */
+  margin-top: 15.27vw; /* 220/1440	 */
+  background: #f2f2f2;
+  border-radius: 1.01vw;
+}
+
+.Courses_course {
+  position: relative;
+  width: 79.4%; /* 764/962	 */
+  height: 28vw; /* 240/1440		 */
+  left: 10.34%; /* 100/962 */
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  background: #ffffff;
+  box-shadow: 0.01vw 0.01vw 0.02vw rgba(0, 0, 0, 0.25);
+  border-radius: 0.69vw;
+}
+
+.Courses_course_image {
+  position: absolute;
+  top: 2vw;
+  left: -0.09%;
+  width: 47.7%; /* 365/764		 */
+  height: 16.67vw; /* 240/1440		 */
+}
+
+.Courses_course_image > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.Courses_course_content {
+  position: absolute;
+  left: 47.7%; /* 365/764		 */
+  width: 51.9%; /* 397/764		 */
+  height: 19.66vw; /* 240/1440		 */
+  /* overflow-y: auto; */
+}
+
+.Courses_course_title {
+  position: relative;
+  width: 80%; /* 160/397	% */
+  height: auto; /* 	28/1440 vw*/
+  margin-left: 6.04%; /* 	24/397 %*/
+  margin-top: 1.66vw; /* 24/1440	vw */
+  margin-bottom: 2.44vw; /* 64/1440	 */
+  line-height: 1;
+
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.66vw; /* 	24/1440 vw */
+  line-height: 1.94vw; /* 	28/1440 */
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.Courses_course_description {
+  position: relative;
+  width: 90.9%; /* 349/397	 */
+  height: auto; /* 58/1440	 */
+  margin-left: 6.04%; /* 24/397	 */
+  margin-top: 2.44vw; /* 64/1440	 */
+
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.11vw; /* 16/1440	 */
+  line-height: 1.31vw; /* 	19/1440 */
+
+  color: #000000;
+}
+
+.Courses_course_date {
+  position: relative;
+  width: auto; /* 102/397	 */
+  height: 1.31vw; /* 	19/1440 */
+  margin-left: 6.04%; /* 24/397	 */
+  margin-top: 3vw; /* 24/1440	vw */
+  margin-bottom: 2vw; /* 24/1440	vw */
+
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.11vw; /* 16/1440	 */
+  line-height: 1.31vw; /* 	19/1440 */
+
+  text-transform: capitalize;
+
+  color: #000000;
+}
+
+.Courses_dot_1 {
+  position: absolute;
+  width: 20.83%; /* 	300/1440% */
+  height: 19.16vw; /* 	276/1440 vw */
+  right: 6.11%; /* 	88/1440% */
+  top: 7vw; /* 	101/1440 vw */
+  background: url("https://raw.githubusercontent.com/Nikitha2309/Girl-Script-Education-Outreach-Website/master/assets/7_Courses_Dot.png")
+    no-repeat;
+  background-size: contain;
+  z-index: 1;
+}
+
+.Courses_dot_2 {
+  position: absolute;
+  width: 20.83%; /* 	300/1440% */
+  height: 19.16vw; /* 	276/1440 vw */
+  left: 6.11%; /* 	88/1440% */
+  bottom: 16.11vw; /* 	101/1440 vw */
+  background: url("https://raw.githubusercontent.com/Nikitha2309/Girl-Script-Education-Outreach-Website/master/assets/7_Courses_Dot.png")
+    no-repeat;
+  background-size: contain;
+  z-index: 1;
+}
+
+.Courses_Stats_Container {
+  position: relative;
+  width: 60.66vw;
+  height: 15.2vw;
+  margin: 0 auto;
+  margin-top: 4.44vw;
+  z-index: 2;
+  background: #ffffff;
+  border-radius: 1.04vw;
+}
+
+.Courses_Stats_1_img,
+.Courses_Stats_3_img{
+  width: 7vw;
+  height: 6vw;
+}
+.enroll-btn{
+  background-color: #eb5310;
+  color:white;
+  padding:0.55vw 1.11vw;
+  border: none;
+  border-radius: 10px;
+  width:60%;
+  display: block;
+  text-align: center;
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 1.11vw;
+  margin: 0px 0px 1.38vw 1.66vw;
+}
+.Courses_Stats_1_img {
+  background: url("https://raw.githubusercontent.com/Nikitha2309/Girl-Script-Education-Outreach-Website/master/assets/7_Courses_Stats_1.png")
+    no-repeat;
+    background-size: contain;
+}
+/* 
+.Courses_Stats_2_img {
+  position: absolute;
+  width: 3.23vw;
+  height: 4.16vw;
+  left: 41.01vw;
+  top: 2.5vw;
+  background: url("https://raw.githubusercontent.com/Nikitha2309/Girl-Script-Education-Outreach-Website/master/assets/7_Courses_Stats_2.png")
+    no-repeat;
+  background-size: contain;
+} */
+
+.Courses_Stats_3_img {
+  background: url("https://raw.githubusercontent.com/Nikitha2309/Girl-Script-Education-Outreach-Website/master/assets/7_Courses_Stats_3.png")
+    no-repeat;
+    background-size: contain;
+}
+/* 
+.Courses_Stats_1_num {
+  position: absolute;
+  width: 200px;
+  height: 45px;
+  left: 8.68vw;
+  top: 7.36vw;
+
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3.33vw;
+  line-height: 3.95vw;
+
+  color: #000000;
+}
+
+.Courses_Stats_2_num {
+  position: absolute;
+  width: 200px;
+  height: 45px;
+  left: 35.69vw;
+  top: 7.36vw;
+
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3.33vw;
+  line-height: 3.95vw;
+
+  color: #000000;
+}
+
+.Courses_Stats_3_num {
+  position: absolute;
+  width: 200px;
+  height: 45px;
+  left: 38vw;
+  top: 7.36vw;
+
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3.33vw;
+  line-height: 3.95vw;
+
+  color: #000000;
+} */
+
+/* .Courses_Stats_1_desc {
+  position: absolute;
+  width: 230px;
+  height: 22px;
+  left: 7.6vw;
+  top: 11.18vw;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.66vw;
+  line-height: 2.01vw;
+  letter-spacing: 0.02em;
+
+  color: #000000;
+}
+
+.Courses_Stats_2_desc {
+  position: absolute;
+  width: 230px;
+  height: 22px;
+  left: 40.31vw;
+  top: 11.18vw;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.66vw;
+  line-height: 2.01vw;
+  letter-spacing: 0.02em;
+
+  color: #000000;
+}
+
+.Courses_Stats_3_desc {
+  position: absolute;
+  width: 230px;
+  height: 22px;
+  left: 39.5vw;
+  top: 11.18vw;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.66vw;
+  line-height: 2.01vw;
+  letter-spacing: 0.02em;
+  color: #000000;
+} */
+.Courses_Stats_1_desc,
+.Courses_Stats_3_desc{
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.66vw;
+  line-height: 2.01vw;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #000000;
+}
+.Courses_Stats_1,
+.Courses_Stats_3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2.11vw;
+}
+.Courses_Stats_Container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+@media screen and (max-width: 1024px) {
+  .Courses_container {
+    width: 80%;
+    padding: 2.083vw;
+  }
+  .enroll-btn{
+    margin-top: 3.38vw;
+    font-size: 3.11vw;
+    padding: 1.55vw;
+    margin-left: 4.11vw;
+  }
+  .Courses_course_image,
+  .Courses_course_content {
+    position: static;
+    width: 100%;
+  }
+  .Courses_course_image {
+    text-align: center;
+  }
+  .Courses_course_description {
+    font-size: 4.11vw;
+    line-height: 4.51vw;
+  }
+  .Courses_course {
+    height: 152vw;
+    position: static;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 2.08vw;
+  }
+
+  .Courses_course_content {
+    overflow-y: visible;
+  }
+  .Courses_course_title {
+    font-size: 4.16vw;
+    margin-top: 2.03vw;
+    margin-bottom: 2.08vw;
+    width: auto;
+    line-height: 1;
+  }
+  .Courses_title {
+    font-size: 8.3vw;
+  }
+  .Courses_title_underline {
+    width: 34.8%;
+    top: 11.79vw;
+    height: 1.11vw;
+    background-color: #eb5310;
+  }
+  .Courses_course_date {
+    font-size: 3.11vw;
+  }
+  .Courses_course_image {
+    height: 71vw;
+    margin-bottom: 3.189vw;
+  }
+  .Courses_Stats_1,
+  .Courses_Stats_3 {
+    font-size: 4.11vw;
+  }
+  .Courses_Stats_1{
+    margin-bottom: 3vw;
+  }
+  .Courses_Stats_Container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 4vw 0;
+  }
+  .Courses_Stats_1_img,
+  .Courses_Stats_3_img {
+    width: 6.58vw;
+    height: 6.16vw;
+  }
+}

@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik&display=swap');
+*{
+	font-family: 'Roboto', sans-serif;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.aim{
+	background-color: #FFBA7A;
+	height:57.98vw; /*600px*/
+	display: flex;
+	padding: 30px;
+	justify-content: space-between;
+}
+.aim h1{
+	font-family: 'Rubik', sans-serif;
+	font-size: 3.3vw;
+	margin-bottom: 5px;
+}
+.aim-flex-cont{
+	display: flex;
+	align-items: center;
+	padding: 30px;
+	justify-content: space-between;
+}
+
+.aim-main-content {
+	 width: 45.4%;
+	 position: relative;
+	 z-index:10;
+	/* height:10.48vw;  */
+}
+
+.aim-dot-1{
+    position: absolute ;
+	z-index: -1;
+	top:20px;
+	width:58.75%;
+}
+.aim-content{
+	position: absolute;
+	left:16.77%;
+	top:15.63vw;
+}
+
+
+.aim p{
+	font-size: 1.1vw;
+	font-weight: 400;
+}
+.aim-img{
+	width:40.37vw;
+	position: absolute;
+	right:4.36vw;
+	top:13.47vw; /*50px*/
+	z-index: 2;
+}
+.aim-main-img{
+	position: relative;
+}
+.aim-dot-2{
+	position: absolute;
+	right:0;
+	bottom:6.77vw; /*40px*/
+	width:21vw;
+	
+}
+.aim hr{
+	border: none;
+	border-top:5px solid #EB5310 ;
+	height:2px;
+	width:67px;
+	margin-bottom: 30px;
+}
+@media screen and (max-width:1024px) {
+	.aim-dot-1,.aim-dot-2{
+		display: none;
+	}
+	.aim{
+	   flex-direction: column;
+	   justify-content: center;
+	   align-items: center;
+	   height: 130vw;
+
+	}
+	.aim-main-content{
+		position: static;
+		padding-top: 6.041vw;
+	}
+	.aim-main-img{
+		position:static;
+		margin-top: 60px;
+		width:80%;
+		text-align: center;
+		margin-bottom: 70px;
+	}
+	.aim-content{
+		position: static;
+	}
+	.aim p{
+		font-size: 4.083vw;
+	}
+	.aim h1{
+		font-size:7.96vw;
+	}
+	.aim-main-content{
+		width:80%;
+	}
+	.aim hr{
+		width:22.69%;
+		height:1.45vw;
+	}
+	.aim-img{
+		top:0;
+		left:0;
+		position: static;
+		width:75.7vw;
+	}
+}

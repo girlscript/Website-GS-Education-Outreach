@@ -1,0 +1,125 @@
+.Mentors {
+  font-family: Roboto;
+  font-style: normal;
+  color: black;
+  height: 57vw;
+  background: #ffdab8;
+}
+.mentors_heading {
+  font-size: 3.33vw;
+  font-family: Rubik;
+  font-weight: 500;
+  padding-left: 10.2vw;
+  padding-top: 2.5rem;
+}
+.mentors-underline {
+  border-top: 0.14vw solid #eb5310;
+  width: 13vw;
+  height: 0px;
+  margin-left: 10.3vw;
+  margin-top: 0.5rem;
+}
+.mentors-container {
+  display: grid;
+  grid-gap: 2.22vw;
+  place-items: center;
+  padding: 5vw 10.2vw;
+  grid-template-columns: repeat(4, 1fr);
+}
+.mentors-container2{
+  display: grid;
+  grid-gap: 2rem;
+  place-items: center;
+  padding: 0vw 30.6vw;
+  grid-template-columns: repeat(2, 1fr);
+}
+.mentor {
+  display: grid;
+  width: 18vw;
+  height: 16vw;
+  /* border: 1px solid black; */
+  text-align: center;
+  position: relative;
+}
+.mentor-img {
+  text-align: center;
+  width: 8vw;
+  height: 7.57vw;
+  object-fit: cover;
+  position: absolute;
+  left: 5.28vw;
+  top: 0;
+  z-index: 1;
+  border-radius: 0.56vw;
+}
+.mentor-subcontainer {
+  background: #fff;
+  height: 12vw;
+  width: 100%;
+  border-radius: 8px;
+  position: absolute;
+  bottom: 0px;
+  padding-top: 3.8vw;
+}
+.mentor-subcontainer h5 {
+  font-weight: 500;
+  font-size: 2vw;
+}
+.mentor-subcontainer p {
+  font-size: 1vw;
+  font-weight: normal;
+}
+.media-icons{
+  margin-top: 1rem;
+}
+.media-icons img {
+  width: 2.4vw;
+}
+@media screen and (max-width: 1024px) {
+  .Mentors {
+    height: 100%;
+  }
+  .mentors_heading{
+    font-size: 8vw;
+  }
+  .mentors-underline{
+    /* margin-top: 1rem; */
+    width: 30%;
+    border-top: .4vw solid #eb5310;
+  }
+  .mentors-container,
+  .mentors-container2 {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 5rem 0rem;
+  }
+  .mentors-container2{
+    padding: 5vw 10.2vw;
+  }
+  .mentor{
+    width: 80%;
+    height: 70vw;
+  }
+  .mentor-subcontainer{
+    height: 80%;
+    border-radius: 2rem;
+    padding-top: 17rem;
+  }
+  
+  .mentor-img{
+    width: 40vw;
+    left: 20%;
+    height: 40vw;
+    border-radius: 2rem;
+  }
+  .mentor-subcontainer h5{
+    font-size: 6.5vw;
+  }
+  .mentor-subcontainer p{
+    font-size: 4vw;
+  }
+  .mentor-subcontainer img{
+    width: 7vw;
+    margin-top: 1rem;
+  }
+}
